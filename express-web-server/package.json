@@ -17,9 +17,9 @@
     "node"
   ],
   "author": {
-    "name": "Josh Archer",
-    "email": "jarcher@greenriver.edu",
-    "url": "https://github.com/joshbarcher"
+    "name": "Tilak",
+    "email": "chudasama.tilak@student.greenriver.edu",
+    "url": "https://github.com/tilak-21"
   },
   "scripts": {
     "dev": "nodemon server.js",

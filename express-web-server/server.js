@@ -10,6 +10,20 @@ dotenv.config({
     path: "./config.env"
 })
 
+const middleware1 = (req, res, next) => {
+    console.log("Request made");
+    next();
+}
+
+const middleware2 = (req, res, next) => {
+    console.log(new Date().toUTCString());
+    next();
+}
+
+//attach mu middleware
+app.use(middleware1);
+app.use(middleware2);
+
 //mount the router
 app.use("/home", router);
 
